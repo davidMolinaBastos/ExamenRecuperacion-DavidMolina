@@ -1,0 +1,11 @@
+-Terrain montañas y con varias texturas y vegetación 
+-Todos los eventos han sido añadidos con Actions
+-Sonido usando cue de explosiones que se lanza al entrar en el trigger saltando, alterna entre los dos sonidos del cue y modifica aleatoriamente su pitch entre 0.2 y 1
+-Level Blueprint Te dos action Inputs per debuggar el executar un so si el player está saltant y un altre per afagir monedes
+-HUD creado, tres corazones que indican la vida, y el texto con la posición, se puede testear la vida con v y b cambiando entre los valores 0 y 3
+-Animación del la hud creada, los corazones se mueven y el indicador de items parpadea
+-El player puede disparar
+-Esferas que no colisionan entre ellas
+-Triggers: Item recolectable que suma a un contador del player y el trigger que reproduce un sonido al entrar saltando
+
+(Problemas: El esqueleto de Animation pack no encaja con el de unreal, la esfera de colision para detectar el pie del player no se conecta al socket, crash a las 17:50)
